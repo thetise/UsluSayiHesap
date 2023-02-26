@@ -1,7 +1,7 @@
 package Giris;
 
 import java.util.Scanner;
-public class ClassPasss {
+public class ClassPass {
     public static void main(String[] args) {
 
         double Math, Fizik, Turkce, Kimya, Muzik, Ortalama;
@@ -25,25 +25,30 @@ public class ClassPasss {
         System.out.print("Muzik notunuzu giriniz: ");
         Muzik = input.nextDouble();
 
-        if(Math > 0 && Math  < 100){
+        if(Math >= 0 && Math  <= 100){
             sum = sum + Math;
             DersSayisi++;
+            System.out.println(sum);
         }
-        else if(Fizik > 0 && Fizik < 100){
+        if(Fizik >= 0 && Fizik <= 100){
             sum = sum + Fizik;
             DersSayisi++;
+            System.out.println(sum);
         }
-        else if(Turkce > 0 && Turkce < 100){
+        if(Turkce >= 0 && Turkce <= 100){
             sum = sum + Turkce;
             DersSayisi++;
+            System.out.println(sum);
         }
-        else if(Kimya > 0 && Kimya < 100){
+        if(Kimya >= 0 && Kimya <= 100){
             sum = sum + Kimya;
             DersSayisi++;
+            System.out.println(sum);
         }
-        else if(Muzik > 0 && Muzik < 100){
+        if(Muzik >= 0 && Muzik <= 100){
             sum = sum + Muzik;
             DersSayisi++;
+            System.out.println(sum);
         }
 
         System.out.println("Not: Geçme notu 55'dir.");
