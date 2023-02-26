@@ -13,6 +13,19 @@ public class BurcBul {
         Scanner input = new Scanner(System.in);
         day = input.nextInt();
 
+        System.out.println("Ocak = 1");
+        System.out.println("Subat = 2");
+        System.out.println("Mart = 3");
+        System.out.println("Nisan = 4");
+        System.out.println("Mayis = 5");
+        System.out.println("Haziran = 6");
+        System.out.println("Temmuz = 7");
+        System.out.println("Agustos = 8");
+        System.out.println("Eylul = 9");
+        System.out.println("Ekim = 10");
+        System.out.println("Kasim = 11");
+        System.out.println("Aralik = 12");
+
         System.out.print("Doğduğunuz ayı giriniz: ");
         month = input.nextInt();
 
@@ -28,7 +41,7 @@ public class BurcBul {
         Ekim = 10;
         Kasim = 11;
         Aralik = 12;
-        
+
         if(month == Ocak){
             if(day >= 22 ){
                 System.out.println("Burcunuz: Kova");
