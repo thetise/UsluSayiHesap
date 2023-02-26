@@ -28,27 +28,22 @@ public class ClassPass {
         if(Math >= 0 && Math  <= 100){
             sum = sum + Math;
             DersSayisi++;
-            System.out.println(sum);
         }
         if(Fizik >= 0 && Fizik <= 100){
             sum = sum + Fizik;
             DersSayisi++;
-            System.out.println(sum);
         }
         if(Turkce >= 0 && Turkce <= 100){
             sum = sum + Turkce;
             DersSayisi++;
-            System.out.println(sum);
         }
         if(Kimya >= 0 && Kimya <= 100){
             sum = sum + Kimya;
             DersSayisi++;
-            System.out.println(sum);
         }
         if(Muzik >= 0 && Muzik <= 100){
             sum = sum + Muzik;
             DersSayisi++;
-            System.out.println(sum);
         }
 
         System.out.println("Not: Geçme notu 55'dir.");
